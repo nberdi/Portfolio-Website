@@ -1,0 +1,131 @@
+/* style of space under each section */
+.border-container { 
+    padding-bottom: 4rem; 
+}
+
+/* applied for Intro, About, Technologies and Contact sections */
+.main_div {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+/* applied for Intro, About and Contact sections */
+.full_width {
+    width: 100%;
+    padding: 0;
+} 
+
+/* Styles for large screens (1024px and above) */
+@media (min-width: 1024px) {
+    .full_width {
+        width: 50%;
+    }
+}
+
+/* necessary so when zooming header and paragraph goes to center */
+/* applied for Intro and About sections */
+.align-center {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.align-start-lg {
+    align-items: center; 
+}
+
+@media (min-width: 1024px) {
+    .align-start-lg {
+        align-items: flex-start;
+    }
+}
+
+/* style of the header (full name) */
+.name_heading {
+    font-size: 4rem; /* size of the name when zoomimg */
+    font-weight: 250; 
+    letter-spacing: -0.015em; 
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .name_heading {
+        margin-top: 3rem; 
+        margin-bottom: 3rem;
+        font-size: 5.5rem; /* size of name */
+    }
+}
+
+/* style of "Full Stack Developer" and Emails in Contact section */
+.gradient-text {
+    background: linear-gradient(to right, #f9a8d4, #64748b, #a855f7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.875rem;
+    letter-spacing: -0.025em;
+}
+
+/* style of paragraphs in Intro and About sections */
+.paragraph_text {
+    margin: 1rem 0;
+    max-width: 36rem; /* width of the text container */
+    padding: 1rem 0;
+    font-size: larger;
+    letter-spacing: -0.005em; /* distance between letters of the text of the introduction*/
+}
+    
+/* style of my pictures in both Intro and About me sections */
+.my-image {
+    border-radius: 1rem;
+    width: 450px;
+    height: 550px;
+}
+
+/* style of btn */
+.btn{
+    margin: 1rem 5rem 0 0;
+    /* margin: 0 auto; */ /* if i want to put btn to the center */
+    padding: 15px 40px;
+    border: none;
+    background: #1c1f2b;
+    border-radius: 16px;
+    position: relative;
+    color: white;
+}
+
+/* style of lights of border */
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.btn::after, .btn::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 16px;
+    animation: 3s spin linear infinite;
+  }
+
+/* shodow of lights */
+.btn::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+}

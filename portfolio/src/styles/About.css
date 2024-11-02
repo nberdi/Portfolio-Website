@@ -1,0 +1,23 @@
+/* applied for all section headers */
+.header {
+    margin: 4rem 0;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+/* style of span for About Me */
+.me {
+    color: #737373;
+}
+
+/* style of the container of about me paragraph */
+.paragraph_div {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+.paragraph_div {
+    justify-content: center;
+}
+}

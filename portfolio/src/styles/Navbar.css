@@ -1,0 +1,27 @@
+.top_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%; /* the distance between logo and nav links */
+}
+
+.logo {
+    font-size: 1.5rem; /* the font size of log (NB) */
+}
+
+nav ul li {
+    display: inline-block; /* makes the nav links on the same line */
+    padding: 10px 20px; /* the distance between each nav link*/
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4c1d95;
+    transition: .3s;
+}

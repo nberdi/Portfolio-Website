@@ -1,0 +1,105 @@
+/* style of key div; applied for both Project and Experience sections */
+.key-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 1rem; /* is for distance between projects */
+}
+  
+@media (min-width: 1024px) {
+    .key-div {
+      justify-content: center;
+    }
+}
+
+/* style of img div */
+.project_img_div {
+    height: 17rem;    
+    margin: 1rem 7rem 0 0;
+}
+
+/* style of project imgs */
+.img {
+    border-radius: 16px; 
+}
+
+/* style of title div */
+/* applied for Project and Experience sections */
+.role_div {
+    width: 100%;
+    height: 100%;
+    max-width: 36rem;
+  }
+  
+/* style of h5; title of the project */
+.project_title {
+    margin: 1rem 0;   
+    font-size: 1.5rem;   
+}
+  
+/* style of paragraph (description of the project) */
+.project_description {
+    color: #a3a3a3;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+  
+/* style of tech stacks (tools) */
+.project_tech {
+    display: inline-block;
+    margin: 0.5rem 0.5rem 0 0;  
+    border-radius: 0.25rem;  
+    background-color: #171717;  
+    padding: 0.25rem 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;         
+    color: #4c1d95;             
+}
+  
+/* style of border of imgs */
+.project_img_div {
+    margin-top: 1rem;
+    margin-right: 5rem;
+    border: none;
+    background: #1c1f2b;
+    border-radius: 16px;
+    position: relative;
+    color: white;
+    margin-bottom: 2.5rem;
+}
+
+/* style of lights of border */
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+  
+.project_img_div::after, .project_img_div::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), #A3C1DA, #008C74, #002D5C, #A8DAB8);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 16px;
+    animation: 3s spin linear infinite;
+  }
+
+/* shodow of lights */
+.project_img_div::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+@keyframes spin{
+    from{
+      --angle: 0deg;
+    }
+    to{
+      --angle: 360deg;
+    }
+} 

@@ -1,0 +1,43 @@
+/*  */
+.child_of_key_div {width: 100%;}
+  
+@media (min-width: 1024px) {
+  .child_of_key_div {
+    width: 25%;
+  }
+}
+
+/* year */
+.my-paragraph {
+  font-size: 1rem;
+  color: #a3a3a3;
+}
+  
+/* job header */
+.my-heading {
+  margin: 1rem 0 1.5rem 0;
+  font-size: 1rem;
+}
+
+/* span; company name of the job */
+.my-span {
+  font-size: 1rem;
+  color: #f3e8ff;
+}
+  
+/* style of description of job */
+.description-paragraph {
+  margin-bottom: 1.5rem;
+  color: #a3a3a3;
+}
+  
+/* style of tools */
+.tools {
+  margin: 1rem 0.5rem 0 0;
+  border-radius: 0.25rem;
+  background-color: #171717;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #5b21b6;
+}

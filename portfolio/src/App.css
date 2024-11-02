@@ -1,0 +1,30 @@
+/* main container in App.tsx */
+.text-container {
+    overflow-x: hidden; /* sets what shows when content overflows a block-level element's left and right edges */
+    color: #d1d5db; /* color of the texts */
+    -webkit-font-smoothing: antialiased; /* makes the shrift of the text less whiter */
+}
+
+/* div of bg */
+.fixed-background {
+    position: fixed; /* makes sure all sections will have the same bg color */
+    top: 0; /* margin top and bottom of bg color*/
+    left: 0; /* margin left and right of bg color*/
+    z-index: -1; /* components appear on top of the bg color */
+}
+
+/* bg color */
+.background-overlay { 
+    position: absolute;
+    height: 100vh; /* height of the bg color */
+    width: 100vw; /* width of the bg color */
+    background: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(120, 119, 198, 0.3), rgba(255, 255, 255, 0)); /* light purple for bg color */
+    background-color: #111827; /* bg color */
+}
+
+/* div of components */
+.container-class {
+    max-width: 1280px; /* width of components */
+    margin: 0 auto; /* sections to the center */
+    padding: 0 2rem; /* when zooming, it has some space between border and element*/
+}

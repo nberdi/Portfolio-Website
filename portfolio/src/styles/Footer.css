@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* uses a column for each element not a row */
+}
+
+.bottom_navbar {
+  text-align: center; /* when zooming, the nav links goes to center */
+}
+
+.navbar_ul {
+  padding: 0;
+}
+
+/* style of bottom text */
+.footer p {
+  text-align: center;
+  color: #fff;
+  margin: 15px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}

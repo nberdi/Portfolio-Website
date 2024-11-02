@@ -1,0 +1,90 @@
+/* necessary so when zooming header and paragraph goes to center */
+.align-center {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.align-start-lg {
+    align-items: center; 
+}
+
+@media (min-width: 1024px) {
+    .align-start-lg {
+        align-items: flex-start;
+    }
+}
+
+/* style of the text "Feel free to contact" */
+.feel_free {
+    font-size: 4rem; /* size of the name when zoomimg */
+    font-weight: 250; 
+    letter-spacing: -0.015em; 
+    text-align: center;
+    margin: 2rem 0 5rem;
+}
+
+/* style of email icon and my emails */
+.my_emails_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* style of h1 text "Send email" */
+.send_email_text {
+    text-align: center;
+    font-size: 4rem; /* size of the name when zoomimg */
+    font-weight: 250; 
+    letter-spacing: -0.015em; 
+    margin: 2rem 0 5rem;
+}
+
+
+/* style of "send me message" box */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea{
+    padding: 1.4rem 12rem 1.4rem 2rem;
+    border: 1px solid black;
+}
+
+textarea{
+    height: 6rem;
+}
+
+/* style of send btn */
+.send_button{
+    width: 8rem;
+    padding: 1.4rem;
+    cursor: pointer;
+    background-color: #4c1d95;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin: auto;
+}
+
+.send_button:hover {
+    background-color: #6A0DAD;
+    transition: .3s;
+}
+
+/* style of social media links */
+.social_media_links {
+    display: flex;
+    gap: 40px;
+    margin-top: 5rem;
+}
+
+.social_media_icon {font-size: 5rem;}
+
+.linkedin{color: #0A66C2;}
+
+.github{color: #fff;}
+
+.instagram{color: #E4405F;}
