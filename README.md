@@ -23,4 +23,4 @@ Welcome to my portfolio website! This site showcases my skills and projects in s
 Feel free to reach out via:
 -     berdinauryzbek@gmail.com
 -     berdin@berea.edu
-- LinkedIn: https://www.linkedin.com/in/nauryzbekberdi/ 
+- [LinkedIn](https://www.linkedin.com/in/nauryzbekberdi/)
