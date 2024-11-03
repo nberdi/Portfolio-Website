@@ -84,8 +84,7 @@
 
 /* style of btn */
 .btn{
-    margin: 1rem 5rem 0 0;
-    /* margin: 0 auto; */ /* if i want to put btn to the center */
+    margin: 0 0 2rem;
     padding: 15px 40px;
     border: none;
     background: #1c1f2b;
