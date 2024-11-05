@@ -4,7 +4,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
+// import { FaBootstrap } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 import { AiOutlinePython } from "react-icons/ai";
 import { RiTailwindCssFill } from "react-icons/ri";
 
@@ -21,16 +22,6 @@ const Technologies = () => {
     <div className="border-container">
       <h2 className="header">Tech Stack</h2>
       <div className="main_div icons_center">
-        <div className="icon_div">
-          <span
-            style={{
-              fontSize: "4.5rem",
-              color: "#00599C",
-            }}
-          >
-            <BiLogoCPlusPlus />
-          </span>
-        </div>
         <div
           style={{
             position: "relative",
@@ -73,6 +64,16 @@ const Technologies = () => {
           </span>
         </div>
         <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#00599C" }}>
+            <BiLogoCPlusPlus />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#007acc" }}>
+            <SiTypescript />
+          </span>
+        </div>
+        <div className="icon_div">
           <span style={{ fontSize: "4.5rem", color: "#E44D26" }}>
             <FaHtml5 />
           </span>
@@ -80,11 +81,6 @@ const Technologies = () => {
         <div className="icon_div">
           <span style={{ fontSize: "4.5rem", color: "#1572B6" }}>
             <FaCss3Alt />
-          </span>
-        </div>
-        <div className="icon_div">
-          <span style={{ fontSize: "4.5rem", color: "#563D7C" }}>
-            <FaBootstrap />
           </span>
         </div>
         <div className="icon_div">
