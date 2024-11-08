@@ -70,7 +70,7 @@ export const PROJECTS = [
   {
     title: "Hangman",
     image: hangman,
-    link: "https://github.com/nberdi/Hangman",
+    link: "https://nberdi.github.io/Hangman/",
     description:
       "Hangman is a word-guessing game where players guess letters to reveal a hidden word. Incorrect guesses add parts to a stick figure, and the game is lost if the figure is completed before the word is guessed. Players aim to guess the word with the fewest mistakes to avoid 'hanging' the stick figure.",
     technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
