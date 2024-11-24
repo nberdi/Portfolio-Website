@@ -1,6 +1,7 @@
 import blackjack from "../assets/projects/blackjack.jpg";
 import hangman from "../assets/projects/hangman.jpg";
 import powergym from "../assets/projects/powergym.jpg";
+import runestone_quiz_grader from "../assets/projects/runestone-quiz-grader.webp";
 import project3 from "../assets/projects/portfolio.jpg";
 
 export const INTRODUCTION = `I'm a passionate Computer Science student and aspiring software engineer with a focus on full stack development. I create clean, scalable, and user-friendly web applications using technologies like Python, JavaScript, and React. I love solving real-world problems through code and aim to develop solutions that make a difference. Let's build something impactful together!`;
@@ -65,7 +66,7 @@ export const PROJECTS = [
     link: "https://github.com/nberdi/BlackJack_Game",
     description:
       "Blackjack is a card game where players try to get a hand value of 21 or close to it without exceeding 21. Face cards are worth 10, aces are 1 or 11, and other cards are their face value. Players compete against the dealer to have the higher hand without busting.",
-    technologies: ["Python"],
+    technologies: ["Python", "Pygame"]
   },
   {
     title: "Hangman",
@@ -73,7 +74,7 @@ export const PROJECTS = [
     link: "https://nberdi.github.io/Hangman/",
     description:
       "Hangman is a word-guessing game where players guess letters to reveal a hidden word. Incorrect guesses add parts to a stick figure, and the game is lost if the figure is completed before the word is guessed. Players aim to guess the word with the fewest mistakes to avoid 'hanging' the stick figure.",
-    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"]
   },
   {
     title: "Power Gym",
@@ -81,14 +82,22 @@ export const PROJECTS = [
     link: "https://github.com/nberdi/Power_Gym",
     description:
       "Power Gym offers personalized schedules for weight gain and exercise routines. To obtain a schedule, a user can take a brief quiz, and based on their responses, the website will generate a customized plan for them. Subsequently, the user can access and watch instructional videos to guide them through the recommended exercises.",
-    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"]
+  },
+  {
+    title: "Runestone Quiz Grader",
+    image: runestone_quiz_grader,
+    link: "https://github.com/nberdi/Runestone-Quiz-Grader",
+    description:
+    "Runestone Quiz Grader is an automation tool developed in Python to simplify the grading process for quizzes on platforms like Moodle. It efficiently integrates with Google Sheets to handle data storage and analysis, making grading faster, more accurate, and hassle-free.",
+    technologies: ["Python", "Selenium", "Google Sheets API", "Moodle", "ChromeDriver"]
   },
   {
     title: "Portfolio Website",
     image: project3,
-    link: "",
+    link: "https://github.com/nberdi/Portfolio-Website",
     description:
       "My portfolio showcases a collection of my web development projects, highlighting my skills in creating responsive and user-friendly interfaces. Each project is designed to demonstrate my ability to deliver engaging user experiences while effectively solving real-world problems.",
-    technologies: ["React", "TypeScript", "HTML", "CSS"],
+    technologies: ["React", "TypeScript", "HTML", "CSS"]
   },
 ];
