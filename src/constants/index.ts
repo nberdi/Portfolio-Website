@@ -1,4 +1,5 @@
 import blackjack from "../assets/projects/blackjack.jpg";
+import fruit_catcher from "../assets/projects/fruit_catcher.webp";
 import hangman from "../assets/projects/hangman.jpg";
 import powergym from "../assets/projects/powergym.jpg";
 import runestone_quiz_grader from "../assets/projects/runestone-quiz-grader.webp";
@@ -66,6 +67,14 @@ export const PROJECTS = [
     link: "https://github.com/nberdi/BlackJack_Game",
     description:
       "Blackjack is a card game where players try to get a hand value of 21 or close to it without exceeding 21. Face cards are worth 10, aces are 1 or 11, and other cards are their face value. Players compete against the dealer to have the higher hand without busting.",
+    technologies: ["Python", "Pygame"]
+  },
+  {
+    title: "Fruit Catcher",
+    image: fruit_catcher,
+    link: "https://github.com/nberdi/Fruit-Catcher",
+    description:
+      "An interactive game developed using Python and Pygame. Players control a bucket to catch falling fruits while avoiding bombs. Each time a fruit is caught, the player earns points. The goal is to collect as many fruits as possible while avoiding bombs and maintaining lives.",
     technologies: ["Python", "Pygame"]
   },
   {
