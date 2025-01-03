@@ -64,10 +64,20 @@ export const PROJECTS = [
   {
     title: "Blackjack",
     image: blackjack,
-    link: "https://github.com/nberdi/BlackJack_Game",
+    link: "https://nberdi.github.io/BlackJack_Game/",
     description:
       "Blackjack is a card game where players try to get a hand value of 21 or close to it without exceeding 21. Face cards are worth 10, aces are 1 or 11, and other cards are their face value. Players compete against the dealer to have the higher hand without busting.",
-    technologies: ["Python", "Pygame"]
+    technologies: ["Python", "Pygame"],
+    btn: [
+      {
+        link: "https://github.com/nberdi/BlackJack_Game",
+        text: "Code"
+      },
+      {
+        link: "https://nberdi.github.io/BlackJack_Game/",
+        text: "Play"
+      }
+    ]
   },
   {
     title: "Fruit Catcher",
@@ -75,7 +85,17 @@ export const PROJECTS = [
     link: "https://github.com/nberdi/Fruit-Catcher",
     description:
       "An interactive game developed using Python and Pygame. Players control a bucket to catch falling fruits while avoiding bombs. Each time a fruit is caught, the player earns points. The goal is to collect as many fruits as possible while avoiding bombs and maintaining lives.",
-    technologies: ["Python", "Pygame"]
+    technologies: ["Python", "Pygame"],
+    btn: [
+      {
+        link: "https://github.com/nberdi/Fruit-Catcher",
+        text: "Code"
+      },
+      // {
+      //   link: "https://nberdi.github.io/Fruit-Catcher/",
+      //   text: "Play"
+      // }
+    ]
   },
   {
     title: "Hangman",
@@ -83,7 +103,17 @@ export const PROJECTS = [
     link: "https://nberdi.github.io/Hangman/",
     description:
       "Hangman is a word-guessing game where players guess letters to reveal a hidden word. Incorrect guesses add parts to a stick figure, and the game is lost if the figure is completed before the word is guessed. Players aim to guess the word with the fewest mistakes to avoid 'hanging' the stick figure.",
-    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"]
+    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    btn: [
+      {
+        link: "https://github.com/nberdi/Hangman",
+        text: "Code"
+      },
+      {
+        link: "https://nberdi.github.io/Hangman/",
+        text: "Play"
+      }
+    ]
   },
   {
     title: "Power Gym",
@@ -91,7 +121,17 @@ export const PROJECTS = [
     link: "https://github.com/nberdi/Power_Gym",
     description:
       "Power Gym offers personalized schedules for weight gain and exercise routines. To obtain a schedule, a user can take a brief quiz, and based on their responses, the website will generate a customized plan for them. Subsequently, the user can access and watch instructional videos to guide them through the recommended exercises.",
-    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"]
+    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    btn: [
+      {
+        link: "https://github.com/nberdi/Power_Gym",
+        text: "Code"
+      },
+      // {
+      //   link: "https://nberdi.github.io/Power_Gym/",
+      //   text: "Visit"
+      // }
+    ]
   },
   {
     title: "Runestone Quiz Grader",
@@ -99,7 +139,13 @@ export const PROJECTS = [
     link: "https://github.com/nberdi/Runestone-Quiz-Grader",
     description:
     "Runestone Quiz Grader is an automation tool developed in Python to simplify the grading process for quizzes on platforms like Moodle. It efficiently integrates with Google Sheets to handle data storage and analysis, making grading faster, more accurate, and hassle-free.",
-    technologies: ["Python", "Selenium", "Google Sheets API", "Moodle", "ChromeDriver"]
+    technologies: ["Python", "Selenium", "Google Sheets API", "Moodle", "ChromeDriver"],
+    btn: [
+      {
+        link: "https://github.com/nberdi/Runestone-Quiz-Grader",
+        text: "Code"
+      }
+    ]
   },
   {
     title: "Portfolio Website",
@@ -107,6 +153,12 @@ export const PROJECTS = [
     link: "https://github.com/nberdi/Portfolio-Website",
     description:
       "My portfolio showcases a collection of my web development projects, highlighting my skills in creating responsive and user-friendly interfaces. Each project is designed to demonstrate my ability to deliver engaging user experiences while effectively solving real-world problems.",
-    technologies: ["React", "TypeScript", "HTML", "CSS"]
+    technologies: ["React", "TypeScript", "HTML", "CSS"],
+    btn: [
+      {
+        link: "https://github.com/nberdi/Portfolio-Website",
+        text: "Code"
+      }
+    ]
   },
 ];
