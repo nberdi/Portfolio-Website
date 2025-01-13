@@ -1,6 +1,7 @@
 import blackjack from "../assets/projects/blackjack.jpg";
+import flashcard_app from "../assets/projects/flashcard_app.png";
 import fruit_catcher from "../assets/projects/fruit_catcher.webp";
-import hangman from "../assets/projects/hangman.jpg";
+import hangman from "../assets/projects/hangman.png";
 import powergym from "../assets/projects/powergym.jpg";
 import runestone_quiz_grader from "../assets/projects/runestone-quiz-grader.webp";
 import project3 from "../assets/projects/portfolio.jpg";
@@ -76,6 +77,24 @@ export const PROJECTS = [
       {
         link: "https://nberdi.github.io/BlackJack_Game/",
         text: "Play"
+      }
+    ]
+  },
+  {
+    title: "Flahscard App",
+    image: flashcard_app,
+    link: "https://github.com/nberdi/Flashcard-App",
+    description:
+      "Flashcard App helps users create and study custom flashcards. After signing up and logging in, users can create modules with descriptions, then add, modify, or delete flashcards with questions and answers. It's an easy way to organize and review content for efficient learning.",
+    technologies: ["Python", "Flask", "Jinja", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap"],
+    btn: [
+      {
+        link: "https://github.com/nberdi/Flashcard-App",
+        text: "Code"
+      },
+      {
+        link: "https://flashcardapp-0njv.onrender.com",
+        text: "Visit"
       }
     ]
   },
