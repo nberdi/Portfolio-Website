@@ -83,7 +83,7 @@ export const PROJECTS = [
   {
     title: "Flahscard App",
     image: flashcard_app,
-    link: "https://github.com/nberdi/Flashcard-App",
+    link: "https://flashcardapp-0njv.onrender.com",
     description:
       "Flashcard App helps users create and study custom flashcards. After signing up and logging in, users can create modules with descriptions, then add, modify, or delete flashcards with questions and answers. It's an easy way to organize and review content for efficient learning.",
     technologies: ["Python", "Flask", "Jinja", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap"],
