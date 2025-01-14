@@ -4,10 +4,14 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
-// import { FaBootstrap } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { AiOutlinePython } from "react-icons/ai";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiFlask } from "react-icons/si";
+import { SiSqlite } from "react-icons/si";
+import { SiJinja } from "react-icons/si";
+import { SiSass } from "react-icons/si";
 
 {
   /* the styles of [
@@ -59,11 +63,6 @@ const Technologies = () => {
           </span>
         </div>
         <div className="icon_div">
-          <span style={{ fontSize: "4.5rem", color: "#06b6d4" }}>
-            <RiReactjsLine />
-          </span>
-        </div>
-        <div className="icon_div">
           <span style={{ fontSize: "4.5rem", color: "#00599C" }}>
             <BiLogoCPlusPlus />
           </span>
@@ -83,9 +82,42 @@ const Technologies = () => {
             <FaCss3Alt />
           </span>
         </div>
+      </div>
+      <br />
+      <div className="main_div icons_center">
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#06b6d4" }}>
+            <RiReactjsLine />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#A9A9A9" }}>
+            <SiFlask />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#0096C7" }}>
+            <SiSqlite />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#000" }}>
+            <SiJinja />
+          </span>
+        </div>
         <div className="icon_div">
           <span style={{ fontSize: "4.5rem", color: "#3B82F6" }}>
             <RiTailwindCssFill />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#7952B3" }}>
+            <FaBootstrap />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#D5006D" }}>
+            <SiSass />
           </span>
         </div>
       </div>
