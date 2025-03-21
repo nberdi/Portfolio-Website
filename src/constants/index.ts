@@ -137,19 +137,19 @@ export const PROJECTS = [
   {
     title: "Power Gym",
     image: powergym,
-    link: "https://github.com/nberdi/Power_Gym",
+    link: "https://github.com/nberdi/Power-Gym",
     description:
-      "Power Gym offers personalized schedules for weight gain and exercise routines. To obtain a schedule, a user can take a brief quiz, and based on their responses, the website will generate a customized plan for them. Subsequently, the user can access and watch instructional videos to guide them through the recommended exercises.",
+      "Power Gym offers personalized fitness schedules for weight gain, weight loss, and exercise routines. To obtain your customized plan, simply take our brief quiz, and based on your responses, we'll generate a tailored schedule just for you. Once you have your personalized plan, you can access instructional videos that will guide you through all the recommended exercises, helping you achieve your fitness goals effectively and safely.",
     technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
     btn: [
       {
-        link: "https://github.com/nberdi/Power_Gym",
+        link: "https://github.com/nberdi/Power-Gym",
         text: "Code"
       },
-      // {
-      //   link: "https://nberdi.github.io/Power_Gym/",
-      //   text: "Visit"
-      // }
+      {
+        link: "https://nberdi.github.io/Power-Gym/index.html",
+        text: "Visit"
+      }
     ]
   },
   {
