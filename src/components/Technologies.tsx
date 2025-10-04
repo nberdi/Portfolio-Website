@@ -1,17 +1,22 @@
 import "../styles/Technologies.css";
-import { BiLogoCPlusPlus } from "react-icons/bi";
+import { AiOutlinePython } from "react-icons/ai";
 import { IoLogoJavascript } from "react-icons/io5";
-import { RiReactjsLine } from "react-icons/ri";
+import { PiFileSql } from "react-icons/pi";
+import { BiLogoCPlusPlus } from "react-icons/bi";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-import { AiOutlinePython } from "react-icons/ai";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiReactjsLine } from "react-icons/ri";
+import { FaNode } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
 import { SiFlask } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiPostgresql } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import RESTfulAPI from "../assets/restful_api.png";
 import { SiSqlite } from "react-icons/si";
+import { SiPrisma } from "react-icons/si";
 import { SiJinja } from "react-icons/si";
-import { SiSass } from "react-icons/si";
 
 {
   /* the styles of [
@@ -63,13 +68,13 @@ const Technologies = () => {
           </span>
         </div>
         <div className="icon_div">
-          <span style={{ fontSize: "4.5rem", color: "#00599C" }}>
-            <BiLogoCPlusPlus />
+          <span style={{ fontSize: "4.5rem", color: "#C7721C" }}>
+            <PiFileSql />
           </span>
         </div>
         <div className="icon_div">
-          <span style={{ fontSize: "4.5rem", color: "#007acc" }}>
-            <SiTypescript />
+          <span style={{ fontSize: "4.5rem", color: "#00599C" }}>
+            <BiLogoCPlusPlus />
           </span>
         </div>
         <div className="icon_div">
@@ -91,23 +96,18 @@ const Technologies = () => {
           </span>
         </div>
         <div className="icon_div">
-          <span style={{ fontSize: "4.5rem", color: "#A9A9A9" }}>
+          <span style={{ fontSize: "4.5rem", color: "#339933" }}>
+            <FaNode />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#000000" }}>
+            <SiExpress />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem" }}>
             <SiFlask />
-          </span>
-        </div>
-        <div className="icon_div">
-          <span style={{ fontSize: "4.5rem", color: "#0096C7" }}>
-            <SiSqlite />
-          </span>
-        </div>
-        <div className="icon_div">
-          <span style={{ fontSize: "4.5rem", color: "#000" }}>
-            <SiJinja />
-          </span>
-        </div>
-        <div className="icon_div">
-          <span style={{ fontSize: "4.5rem", color: "#3B82F6" }}>
-            <RiTailwindCssFill />
           </span>
         </div>
         <div className="icon_div">
@@ -116,8 +116,46 @@ const Technologies = () => {
           </span>
         </div>
         <div className="icon_div">
-          <span style={{ fontSize: "4.5rem", color: "#D5006D" }}>
-            <SiSass />
+          <span style={{ fontSize: "4.5rem", color: "#06B6D4" }}>
+            <RiTailwindCssFill />
+          </span>
+        </div>
+      </div>
+      <br />
+      <div className="main_div icons_center">
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#336791" }}>
+            <SiPostgresql />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#F05032" }}>
+            <FaGitAlt />
+          </span>
+        </div>
+        <div className="icon_div">
+          <img
+            src={RESTfulAPI}
+            alt="RESTful API"
+            style={{
+              width: "4.5rem",
+              height: "4.5rem",
+            }}
+          />
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#0096C7" }}>
+            <SiSqlite />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem" }}>
+            <SiPrisma />
+          </span>
+        </div>
+        <div className="icon_div">
+          <span style={{ fontSize: "4.5rem", color: "#000" }}>
+            <SiJinja />
           </span>
         </div>
       </div>
