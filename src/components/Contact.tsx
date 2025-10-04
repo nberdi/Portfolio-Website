@@ -2,7 +2,6 @@ import "../styles/Contact.css";
 import { IoIosMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 
 {
   /* the styles of [
@@ -48,12 +47,6 @@ const Contact = () => {
                 href="https://github.com/nberdi"
               >
                 <FaGithub />
-              </a>
-              <a
-                className="instagram social_media_icon"
-                href="https://www.instagram.com/berdiyev.kz/"
-              >
-                <FaInstagram />
               </a>
             </div>
           </div>
