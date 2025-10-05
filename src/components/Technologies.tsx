@@ -29,7 +29,7 @@ import { SiJinja } from "react-icons/si";
 const Technologies = () => {
   return (
     <div className="border-container">
-      <h2 className="header">Tech Stack</h2>
+      <h2 id="tech" className="header">Tech Stack</h2>
       <div className="main_div icons_center">
         <div
           style={{
