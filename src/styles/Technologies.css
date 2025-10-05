@@ -1,13 +1,20 @@
+/* applied for all section headers */
+.header {
+  margin: 4rem 0;
+  text-align: center;
+  font-size: 2.25rem;
+}
+
 /* center icons */
 .icons_center {
-    align-items: center; /* Vertically centers flex items */
-    justify-content: center; /* Horizontally centers flex items */
-    gap: 1rem; /* Sets a gap of 1rem (16px) between flex items */
+  align-items: center; /* Vertically centers flex items */
+  justify-content: center; /* Horizontally centers flex items */
+  gap: 1rem; /* Sets a gap of 1rem (16px) between flex items */
 }
 
 /* style of borders of icons */
-.icon_div{
-  padding: 1rem;  
+.icon_div {
+  padding: 1rem;
   height: 72px;
   border: none;
   background: #1c1f2b;
@@ -17,37 +24,45 @@
 }
 
 /* style of lights of border */
-@property --angle{
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false;
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
-  
-.icon_div::after, .icon_div::before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-    z-index: -1;
-    padding: 3px;
-    border-radius: 16px;
-    animation: 3s spin linear infinite;
-  }
+
+.icon_div::after,
+.icon_div::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(
+    from var(--angle),
+    #ff4545,
+    #00ff99,
+    #006aff,
+    #ff0095,
+    #ff4545
+  );
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  border-radius: 16px;
+  animation: 3s spin linear infinite;
+}
 
 /* shodow of lights */
-.icon_div::before{
-    filter: blur(1.5rem);
-    opacity: 0.5;
+.icon_div::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
 }
-@keyframes spin{
-    from{
-      --angle: 0deg;
-    }
-    to{
-      --angle: 360deg;
-    }
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
 }
