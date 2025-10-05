@@ -3,8 +3,8 @@ import { EXPERIENCES } from "../constants";
 
 {
   /* the style of border-container is in intro.css
-     the style of header is in about.css 
-     the styles of [key-div, role_div] are in project.css
+      the style of header is in about.css 
+      the styles of [key-div, role_div] are in project.css
   */
 }
 const Experience = () => {
@@ -24,12 +24,17 @@ const Experience = () => {
               </h5>
               <p className="description-paragraph">
                 {experience.description1} <br />
-                {experience.description2}
+                {experience.description2} <br />
+                {experience.description3}
               </p>
               {experience.technologies.map((tech, index) => (
-                <span key={index} className="tools">
-                  {tech}
-                </span>
+                <>
+                  <span key={index} className="tools">
+                    {tech}
+                  </span>
+                  {index == 4 && <br />}
+                  {index == 4 && <br />}
+                </>
               ))}
             </div>
           </div>
