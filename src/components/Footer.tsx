@@ -9,9 +9,9 @@ const Footer = () => {
             <li>
               <a href="">Home</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#about">About</a>
-            </li>
+            </li> */}
             <li>
               <a href="#tech">Tech</a>
             </li>

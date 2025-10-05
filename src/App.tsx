@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
-import About from "./components/About";
+// import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
@@ -18,7 +18,7 @@ const App = () => {
       <div className="container-class">
         <Navbar />
         <Intro />
-        <About />
+        {/* <About /> */}
         <Technologies />
         <Experience />
         <Project />
