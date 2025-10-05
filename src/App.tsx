@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
-// import Experience from "./components/Experience";
+import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -20,7 +20,7 @@ const App = () => {
         <Intro />
         <About />
         <Technologies />
-        {/* <Experience /> */}
+        <Experience />
         <Project />
         <Contact />
         <Footer />
