@@ -43,14 +43,6 @@ export const KEYWORDS_ARRAY = [
 
 export const EXPERIENCES = [
   {
-    year: "Aug 2025 - Present",
-    role: "Recognized Student Organizations Assistant",
-    company: "Berea College",
-    description1: `• Support all recognized student organizations with event planning and administrative needs, serving the campus community`,
-    description2: `• Guide organizations through Berea Engage platform, event submissions, and resource allocation while ensuring policy compliance`,
-    technologies: [],
-  },
-  {
     year: "Jun 2025 - Jul 2025",
     role: "Full-Stack Developer",
     company: "Purdue University",
@@ -73,6 +65,14 @@ export const EXPERIENCES = [
     description1: `• Data Structures & Algorithms (Spring 2025): Mentored 30+ students in algorithm design and complexity analysis, improving average assignment scores by 15% through targeted tutoring sessions`,
     description2: `• Software Design & Implementation (Fall 2024): Evaluated and provided detailed feedback on 36 students' software projects, emphasizing design patterns and clean code principles`,
     technologies: ["C++", "Python"],
+  },
+  {
+    year: "Aug 2025 - Present",
+    role: "Recognized Student Organizations Assistant",
+    company: "Berea College",
+    description1: `• Support all recognized student organizations with event planning and administrative needs, serving the campus community`,
+    description2: `• Guide organizations through Berea Engage platform, event submissions, and resource allocation while ensuring policy compliance`,
+    technologies: [],
   },
 ];
 
